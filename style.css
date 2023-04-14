@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+.nav{
+    height: 60px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: inset;
+}
+
+.header-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height:80px;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+  -webkit-box-shadow: 0 1px 1px rgba(57, 63, 72, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(57, 63, 72, 0.1);
+  box-shadow: 0 1px 1px rgba(57, 63, 72, 0.1);
+    
+}
+.topnav {
+    display: flex;
+}
+.topnav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgba(131, 134, 132, 0.962);
+}
+
+.topnav a:hover {
+    color: rgb(107, 187, 160);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 100px 40px 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(107, 187, 160);
+}
+
+.fulllogo img {
+ width: 300px;
+}
+
+
+.intro {
+display: flex;
+justify-content: space-between;
+line-height: 30px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.card { 
+    margin-left: 10px;
+    margin-right: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.card h5 {
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.patients {
+    background-color:  rgb(101, 211, 174);
+   
+}
+
+.patients:hover {
+    background-color: rgb(149, 220, 196);
+}
+
+.doctors {
+    background-color:  rgb(33, 146, 217);
+    
+}
+
+.doctors:hover {
+    background-color: rgb(55, 178, 255);
+
+}
+
+.clinics {
+    background-color:  rgb(4, 19, 33);
+   
+}
+
+
+.clinics:hover {
+    background-color: rgb(44, 53, 60);
+
+}
+
+.style-select select {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.style-select:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: 10px;
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+    line-height: 1em;
+    background: no-repeat url(/icons/arrow-icon@2x.png) 50% 50%;
+    background-size: 8px;
+    pointer-events: none;
+}
+
+h1{
+    display: flex;
+    justify-content: left baseline;
+    align-items: center;
+    color: rgb(107, 187, 160);
+    font-weight: 100;
+    width: 200px 220px;
+    /* margin-left: 30px; */
+}
+
+.sponsors {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors .brands-logos {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 30px;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.sponsors .brands-logos div {
+    height: 40px;
+    padding: 0px 15px;
+    /* width: 100px; */
+    font-size: 10px;
+}
+
+/* .sponsors .brands-logos a {
+    /* width: 100%;
+    height: 20px; */
+
+.sponsors .brands-logos svg {
+    width: 100%;
+    height: 20px;
+}
+
+.brands-logos a{
+   color: rgb(148, 152, 182);
+}
+
+.brands-logos a:hover {
+    color: aquamarine;
+}
+
+.S2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: rgba(156, 235, 225, 0.528);
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cards div {
+    width: auto;
+    display: inline-block;
+    align-items: last baseline;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(107, 187, 160);
+    font-weight: 100;
+    width: 200px 220px;
+}
+
+
+
+
+.container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 680px) {
+    .container {
+      max-width: 800px;
+    }
+  }
+  
+  @media (min-width: 1060px) {
+    .container {
+      max-width: 1000px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1000px;
+    }
+  }
+
+
+
